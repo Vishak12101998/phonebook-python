@@ -1,44 +1,4 @@
-# #lambda functions
-# def greeting(x):
-#     x= x +"ing"
-#     return x.upper()
-# result= greeting("follow")
-# print(result)
 
-# greet= lambda x:(x+"ing").upper()
-# output=greet("mov")
-# print(output)
-
-# operations={
-#     "add" : lambda x,y :x+y,
-#     "sub" : lambda x,y :x-y,
-#     "mul" : lambda x,y :x*y,
-#     "div" : lambda x,y :x//y,
-# }
-# res= operations['mul'](6,7)
-# print(res)
-
-#pallindrome
-# def pallindrome(n):
-#     num_str=str(n)
-#     if num_str==num_str[::-1]:
-#         return True
-#     else:
-#         return False
-# num=(input("enter the number: "))  
-# if(pallindrome(num)):
-#     print(num,"is a pallindrome:") 
-# else:
-#     print(num,"is not pallindrome")    
-#global scope
-
-# a = 20
-# def fun():
-#     #global a
-#     a = 30 #local scope
-#     print("--",a)
-# fun() 
-# print(a)   
 pb={}
 def addcontact():
     name=input("enter a name :")
